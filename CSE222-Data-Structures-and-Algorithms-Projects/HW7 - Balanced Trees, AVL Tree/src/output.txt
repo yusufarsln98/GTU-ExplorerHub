@@ -1,0 +1,146 @@
+ ---------------------- To Binary Search Tree With Array Elements Driver ----------------------
+
+
+----- Binary Tree -----
+55
+  21
+    null
+    53
+      null
+      92
+        null
+        null
+  71
+    55
+      null
+      84
+        75
+          null
+          null
+        null
+    50
+      91
+        null
+        null
+      null
+
+Binary Tree (one-line inorder): 
+(( 21 ( 53 ( 92 ))) 55 (( 55 (( 75 ) 84 )) 71 (( 91 ) 50 )))
+
+
+-- The array: [18, 31, 17, 9, 46, 36, 48, 3, 42, 12] --
+
+----- Binary Search Tree -----
+17
+  3
+    null
+    9
+      null
+      12
+        null
+        null
+  42
+    18
+      null
+      36
+        31
+          null
+          null
+        null
+    48
+      46
+        null
+        null
+      null
+
+Binary Search Tree (one-line inorder): 
+(( 3 ( 9 ( 12 ))) 17 (( 18 (( 31 ) 36 )) 42 (( 46 ) 48 )))
+
+
+
+ ---------------------- To AVL Tree Driver ----------------------
+
+------ Binary Search Tree ------
+
+one-line in order: ((( 3 ) 6 (( 9 ) 11 ( 13 ))) 17 (((( 38 ((( 41 ) 45 ) 47 )) 58 ) 59 ) 67 (( 87 ) 91 )))
+
+pre order:
+17
+  6
+    3
+      null
+      null
+    11
+      9
+        null
+        null
+      13
+        null
+        null
+  67
+    59
+      58
+        38
+          null
+          47
+            45
+              41
+                null
+                null
+              null
+            null
+        null
+      null
+    91
+      87
+        null
+        null
+      null
+
+
+------ AVL Tree ------
+
+                                               17                                               
+                        ┌───────────────────────┴───────────────────────┐                       
+                        6                                              59                       
+            ┌───────────┴───────────┐                       ┌───────────┴───────────┐           
+            3                      11                      45                      87           
+                              ┌─────┴─────┐           ┌─────┴─────┐           ┌─────┴─────┐     
+                              9          13          38          58          67          91     
+                                                      └──┐     ┌──┘                             
+                                                        41    47                                
+
+one-line in order: ((( 3 ) 6 (( 9 ) 11 ( 13 ))) 17 ((( 38 ( 41 )) 45 (( 47 ) 58 )) 59 (( 67 ) 87 ( 91 ))))
+
+pre order:
+17
+  6
+    3
+      null
+      null
+    11
+      9
+        null
+        null
+      13
+        null
+        null
+  59
+    45
+      38
+        null
+        41
+          null
+          null
+      58
+        47
+          null
+          null
+        null
+    87
+      67
+        null
+        null
+      91
+        null
+        null
