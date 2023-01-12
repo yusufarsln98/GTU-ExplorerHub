@@ -1,0 +1,5 @@
+name,budget,year,genre,score
+carlito's way,30000000,1993,crime,7.9
+once upon a time in china iii,unknown,2012,action,6.8
+boogie nights,15000000,1997,drama,7.9
+invinscible,unknown,2001,drama,6.5
