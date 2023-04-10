@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <signal.h>
+// int sigprocmask(int how, const sigset_t *set, sigset_t *oldset);
 #include <unistd.h>
 
 void critical_operation()
