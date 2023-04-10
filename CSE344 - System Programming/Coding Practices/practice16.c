@@ -22,6 +22,9 @@ void sigint_handler(int sig)
 {
     printf("Received SIGINT signal.\n");
 }
+/*
+    Signal for segmentation violation (SIGSEGV) or SIGKILL cannot be masked or handled.
+*/
 
 int main()
 {
