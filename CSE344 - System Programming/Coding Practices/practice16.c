@@ -23,7 +23,18 @@ void sigint_handler(int sig)
     printf("Received SIGINT signal.\n");
 }
 /*
-    Signal for segmentation violation (SIGSEGV) or SIGKILL cannot be masked or handled.
+    Signal for segmentation violation (SIGSEGV) cannot be masked or handled.
+    Also, SIGSTOP and SIGKILL cannot be blocked or handled.
+*/
+
+/*
+    Functions related to signal masks:
+    int sigemptyset(sigset_t *set); // initialize the signal set
+    int sigfillset(sigset_t *set); // add all signals to the signal set
+    int sigaddset(sigset_t *set, int signum); // add a signal to the signal set
+    int sigdelset(sigset_t *set, int signum); // remove a signal from the signal set
+    int sigismember(const sigset_t *set, int signum); // check if a signal is in the signal set
+    int sigprocmask(int how, const sigset_t *set, sigset_t *oldset); // change the signal mask
 */
 
 int main()
