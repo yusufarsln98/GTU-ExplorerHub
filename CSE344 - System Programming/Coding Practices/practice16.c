@@ -18,6 +18,11 @@ void critical_operation()
     printf("Critical operation complete.\n");
 }
 
+void sigint_handler(int sig)
+{
+    printf("Received SIGINT signal.\n");
+}
+
 int main()
 {
     sigset_t mask;                       // create a signal set
@@ -25,6 +30,7 @@ int main()
     sigaddset(&mask, SIGINT);            // add SIGINT to the signal set
     sigaddset(&mask, SIGTSTP);           // add SIGTSTP to the signal set
     sigprocmask(SIG_BLOCK, &mask, NULL); // block the signals in the signal set
+    signal(SIGINT, sigint_handler);      // install the signal handler for SIGINT (see after critical_operation() is done)
 
     // Pressing Ctrl+C will not interrupt the program
     printf("Press Ctrl+C to interrupt the program...\n");
