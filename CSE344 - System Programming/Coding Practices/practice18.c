@@ -1,4 +1,4 @@
-// signal handlers
+//  --- --- SIGNAL HANDLING --- ---
 // sigaction() (DO NOT USE signal() system call)
 
 #include <signal.h>

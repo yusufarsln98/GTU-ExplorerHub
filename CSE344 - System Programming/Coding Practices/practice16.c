@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <signal.h>
 // int sigprocmask(int how, const sigset_t *set, sigset_t *oldset);
+/*
+    how: SIG_BLOCK, SIG_UNBLOCK, SIG_SETMASK
+    set: the signal set to be added, removed, or set
+    oldset: the previous signal mask
+*/
 #include <unistd.h>
 
 void critical_operation()
