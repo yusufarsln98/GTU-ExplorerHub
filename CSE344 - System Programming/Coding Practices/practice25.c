@@ -37,6 +37,8 @@ int main()
         }
         fprintf(fp, "hello world from child\n");
     }
+
+    fclose(fp);
     return 0;
 }
 

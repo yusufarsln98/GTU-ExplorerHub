@@ -25,17 +25,6 @@
     child process will run first.
     So, do not code your program depending on which process
     runs first.
-
-    --- Terminating a process ---
-    * exit() function from stdlib.h
-
-    void exit(int status);
-
-    status:
-        0: successful
-        < 0: failure
-        > 0: their meaning is application specific.
-
 */
 
 // example of fork() usage
