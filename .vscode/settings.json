@@ -2,7 +2,10 @@
 	"files.associations": {
 		"types.h": "c",
 		"stdio.h": "c",
-		"unistd.h": "c"
+		"unistd.h": "c",
+		"wait.h": "c",
+		"errno.h": "c",
+		"stdarg.h": "c"
 	},
 	"C_Cpp.errorSquiggles": "disabled"
 }
