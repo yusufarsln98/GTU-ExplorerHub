@@ -9,7 +9,6 @@
 #include <time.h>
 
 // hexdump
-
 int main(int argc, char *argv[])
 {
     unsigned char buf[16];

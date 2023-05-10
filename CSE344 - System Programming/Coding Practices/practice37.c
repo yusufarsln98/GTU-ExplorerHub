@@ -16,7 +16,7 @@
 #include <sys/wait.h>
 #include <stdlib.h>
 
-int system(char *command)
+int my_system(char *command)
 {
     pid_t pid;
     int status;

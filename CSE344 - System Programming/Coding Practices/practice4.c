@@ -30,7 +30,7 @@
 
 int main(int argc, char *argv[])
 {
-    // create a file
+    // create a file if does not exists
     int fd = open("test.txt", O_CREAT | O_WRONLY, 0644);
     if (fd == -1)
     {

@@ -78,6 +78,7 @@ int main()
 
     sigfillset(&sigset);         // fills the set with all signals
     sigdelset(&sigset, SIGUSR1); // deletes SIGUSR1 from the set
+    // sigdelset(&sigset, SIGINT);  // deletes SIGUSR1 from the set
 
     time(&t); // gets the current time
     printf("parent waiting for child to send SIGUSR1 at %s", ctime(&t));

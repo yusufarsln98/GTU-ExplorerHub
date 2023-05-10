@@ -32,7 +32,6 @@ int main(int argc, char *argv[])
         kill(pid, SIGKILL);
         wait(&status);
         printf("Parent process is terminated.\n");
-        // print pid
     }
     else
     {

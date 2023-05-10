@@ -9,7 +9,7 @@
 
 // add mask to the signal set
 
-int system(char *command)
+int my_system(char *command)
 {
     sigset_t block_mask, orig_mask;
     struct sigaction sa_ignore, sa_orig_quit, sa_orig_int, sa_default;
@@ -18,7 +18,7 @@ int system(char *command)
 
     if (command == NULL) // Is a shell available?
     {
-        return system(":") == 0;
+        return my_system(":") == 0;
     }
 
     sigemptyset(&block_mask); // Block SIGCHLD
