@@ -1,2 +1,0 @@
-hello world from child
-hi world from parent
