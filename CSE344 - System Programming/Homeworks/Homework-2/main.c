@@ -1,3 +1,4 @@
+// sonuc: 35 puan
 
 #include <stdio.h>
 #include <stdlib.h>
