@@ -6,6 +6,7 @@
 	url = https://github.com/yusufarsln98/object-oriented-programming
 [submodule "data-structures"]
 	path = data-structures
+	url = https://github.com/yusufarsln98/data-structures
 [submodule "introduction-to-algorithm-design"]
 	path = introduction-to-algorithm-design
 	url = https://github.com/yusufarsln98/introduction-to-algorithm-design
@@ -15,7 +16,6 @@
 [submodule "computer-organization"]
 	path = computer-organization
 	url = https://github.com/yusufarsln98/computer-organization
-	url = https://github.com/yusufarsln98/data-structures
 [submodule "system-programming"]
 	path = system-programming
 	url = https://github.com/yusufarsln98/system-programming
