@@ -22,3 +22,6 @@
 [submodule "operating-systems"]
 	path = operating-systems
 	url = https://github.com/yusufarsln98/operating-systems.git
+[submodule "computer-engineering-project"]
+	path = computer-engineering-project
+	url = https://github.com/yusufarsln98/computer-engineering-project
