@@ -1,0 +1,24 @@
+[submodule "computer-programming-with-c"]
+	path = computer-programming-with-c
+	url = https://github.com/yusufarsln98/computer-programming-with-c
+[submodule "object-oriented-programming"]
+	path = object-oriented-programming
+	url = https://github.com/yusufarsln98/object-oriented-programming
+[submodule "data-structures"]
+	path = data-structures
+[submodule "introduction-to-algorithm-design"]
+	path = introduction-to-algorithm-design
+	url = https://github.com/yusufarsln98/introduction-to-algorithm-design
+[submodule "programming-languages"]
+	path = programming-languages
+	url = https://github.com/yusufarsln98/programming-languages
+[submodule "computer-organization"]
+	path = computer-organization
+	url = https://github.com/yusufarsln98/computer-organization
+	url = https://github.com/yusufarsln98/data-structures
+[submodule "system-programming"]
+	path = system-programming
+	url = https://github.com/yusufarsln98/system-programming
+[submodule "operating-systems"]
+	path = operating-systems
+	url = https://github.com/yusufarsln98/operating-systems.git
