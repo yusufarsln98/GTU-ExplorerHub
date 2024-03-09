@@ -1,4 +1,0 @@
-clear
-[H[2J[3Jjavac -d bin Main.java
-cd bin ; java Main
-[]
